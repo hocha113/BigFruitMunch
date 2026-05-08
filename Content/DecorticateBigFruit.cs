@@ -52,6 +52,10 @@ namespace BigFruitMunch.Content
         public override bool PreDrawInInventory(SpriteBatch spriteBatch, Vector2 position, Rectangle frame,
             Color drawColor, Color itemColor, Vector2 origin, float scale) {
             Texture2D tex = TextureAssets.Item[Type].Value;
+            // 优先走着色器；着色器加载失败时降级为 Color 乘法
+            if (BigFruitQualityShader.DrawIconWithFilter(spriteBatch, tex, position, frame, drawColor, origin, scale, Quality))
+                return false;
+
             Color tint = MultiplyColor(drawColor, Quality.ToTint());
             spriteBatch.Draw(tex, position, frame, tint, 0f, origin, scale, SpriteEffects.None, 0f);
             return false;
@@ -60,7 +64,13 @@ namespace BigFruitMunch.Content
         public override bool PreDrawInWorld(SpriteBatch spriteBatch, Color lightColor, Color alphaColor,
             ref float rotation, ref float scale, int whoAmI) {
             Texture2D tex = TextureAssets.Item[Type].Value;
-            Vector2 worldPos = Item.position - Main.screenPosition + new Vector2(Item.width / 2f, Item.height - tex.Height * 0.5f + 2f);
+            Vector2 worldPos = Item.position - Main.screenPosition
+                + new Vector2(Item.width / 2f, Item.height - tex.Height * 0.5f + 2f);
+
+            if (BigFruitQualityShader.DrawWorldWithFilter(spriteBatch, tex, worldPos, null, lightColor,
+                    rotation, tex.Size() * 0.5f, scale, Quality))
+                return false;
+
             Color tint = MultiplyColor(lightColor, Quality.ToTint());
             spriteBatch.Draw(tex, worldPos, null, tint, rotation, tex.Size() * 0.5f, scale, SpriteEffects.None, 0f);
             return false;
