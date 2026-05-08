@@ -1,3 +1,5 @@
-displayName = ´ó¹û½À½À½À
+displayName = ?????
 author = HoCha113
 version = 0.1
+homepage =
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*

@@ -1,3 +1,72 @@
-# This file will automatically update with entries for new content after a build and reload.
-# Please read https://github.com/tModLoader/tModLoader/wiki/Localization to learn more about localization and these files.
+# Auto-updated on build & reload. Translation reference: https://github.com/tModLoader/tModLoader/wiki/Localization
+Mods: {
+	BigFruitMunch: {
+		DisplayName: Big Fruit Munch
 
+		Items: {
+			BigFruit: {
+				DisplayName: Big Fruit
+				Tooltip:
+					'''
+					Drops from palm trees.
+					Plant on Sand to grow a Palm Tree.
+					Cut at the Big Fruit Cutter to peel.
+					'''
+			}
+			BigFruitleaf: {
+				DisplayName: Big Fruit Leaf
+				Tooltip: A leaf shed by palm trees. Used as crafting material.
+			}
+			BigFruitCutterbar: {
+				DisplayName: Big Fruit Cutter
+				Tooltip:
+					'''
+					Place down and right-click while holding a Big Fruit
+					to slice it into two halves of Peeled Big Fruit.
+					Quality is randomized.
+					'''
+			}
+
+			DecorticateBigFruit: {
+				Withered:  { DisplayName: Withered Peeled Big Fruit,  Tooltip: "A withered peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
+				Common:    { DisplayName: Peeled Big Fruit,           Tooltip: "A common peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
+				Excellent: { DisplayName: Excellent Peeled Big Fruit, Tooltip: "An excellent peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
+				Rare:      { DisplayName: Rare Peeled Big Fruit,      Tooltip: "A rare peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
+				Epic:      { DisplayName: Epic Peeled Big Fruit,      Tooltip: "An epic peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
+				Legendary: { DisplayName: Legendary Peeled Big Fruit, Tooltip: "A legendary peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
+				Mythic:    { DisplayName: Mythic Peeled Big Fruit,    Tooltip: "A mythic peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
+			}
+
+			ChewableBigFruit: {
+				Withered:  { DisplayName: Withered Chewable Big Fruit,  Tooltip: "Eating it does nothing... but you still get a betel nut addiction count." }
+				Common:    { DisplayName: Chewable Big Fruit,           Tooltip: "Grants Chew Bliss Lv.0 for 3 minutes. +1 Betel Nut Addiction." }
+				Excellent: { DisplayName: Excellent Chewable Big Fruit, Tooltip: "Grants Chew Bliss Lv.1 for 3 minutes. +1 Betel Nut Addiction." }
+				Rare:      { DisplayName: Rare Chewable Big Fruit,      Tooltip: "Grants Chew Bliss Lv.2 for 3 minutes. +1 Betel Nut Addiction." }
+				Epic:      { DisplayName: Epic Chewable Big Fruit,      Tooltip: "Grants Chew Bliss Lv.3 for 3 minutes. +1 Betel Nut Addiction." }
+				Legendary: { DisplayName: Legendary Chewable Big Fruit, Tooltip: "Grants Chew Bliss Lv.4 for 3 minutes. +1 Betel Nut Addiction." }
+				Mythic:    { DisplayName: Mythic Chewable Big Fruit,    Tooltip: "Grants Chew Bliss Lv.5 for 3 minutes. +1 Betel Nut Addiction." }
+			}
+		}
+
+		Tiles: {
+			BigFruitCutterbarTile: {
+				MapEntry: Big Fruit Cutter
+			}
+		}
+
+		Buffs: {
+			ChewSatisfaction: {
+				Level0: { DisplayName: Chew Bliss Lv.0, Description: "+3% damage, +2% movement speed." }
+				Level1: { DisplayName: Chew Bliss Lv.1, Description: "+6% damage, +4% movement speed, +1 defense, +1 life regen." }
+				Level2: { DisplayName: Chew Bliss Lv.2, Description: "+9% damage, +6% movement speed, +2 defense, +2 life regen, +2% crit." }
+				Level3: { DisplayName: Chew Bliss Lv.3, Description: "+12% damage, +8% movement speed, +3 defense, +3 life regen, +4% crit." }
+				Level4: { DisplayName: Chew Bliss Lv.4, Description: "+15% damage, +10% movement speed, +4 defense, +4 life regen, +6% crit." }
+				Level5: { DisplayName: Chew Bliss Lv.5, Description: "+18% damage, +12% movement speed, +5 defense, +5 life regen, +8% crit." }
+			}
+			BetelNutAddictionBuff: {
+				DisplayName: Betel Nut Addiction
+				Description: You can't stop chewing... the count just keeps rising.
+			}
+		}
+	}
+}

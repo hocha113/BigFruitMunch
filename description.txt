@@ -1,1 +1,15 @@
-Modify this file with a description of your mod.
+大果嚼嚼嚼 (Big Fruit Munch)
+
+新增"棕榈树→大果→去皮大果→可嚼大果"完整加工链：
+- 棕榈树掉落【大果叶】(100%, 1-4) 与【大果】(80%, 1-3)
+- 棕榈树不再掉落橡果，使用【大果】可在沙地种植棕榈树
+- 在【大果切割机】右键切开大果，按品质获得 7 种【去皮大果】
+- 在烹饪锅中烧制成对应品质的【可嚼大果】
+- 食用获得【嚼的爽！】0~5 级 Buff，并累积【槟榔成瘾计数】
+
+A complete crafting chain Palm Tree -> Big Fruit -> Peeled Big Fruit -> Chewable Big Fruit:
+- Palm trees drop Big Fruit Leaves (100%, 1-4) and Big Fruit (80%, 1-3)
+- Palm trees no longer drop Acorns; Big Fruit can be planted on sand to grow palm trees
+- Right-click the Big Fruit Cutter to slice a Big Fruit into 2 random-quality Peeled halves
+- Cook on a Cooking Pot for a Chewable Big Fruit of matching quality
+- Eat to gain the "Chew Bliss" buff (Lv.0-5) and stack your Betel Nut Addiction count
