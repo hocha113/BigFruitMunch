@@ -1,72 +1,168 @@
-# Auto-updated on build & reload. Translation reference: https://github.com/tModLoader/tModLoader/wiki/Localization
-Mods: {
-	BigFruitMunch: {
-		DisplayName: Big Fruit Munch
+// ==================== 英文本地化文件 (en-US.hjson) ====================
+Buffs: {
+	BetelNutAddictionBuff: {
+		DisplayName: Betel Nut Addiction
+		Description: You feel an aching emptiness... You need to chew on something to ease it.
+	}
 
-		Items: {
-			BigFruit: {
-				DisplayName: Big Fruit
-				Tooltip:
-					'''
-					Drops from palm trees.
-					Plant on Sand to grow a Palm Tree.
-					Cut at the Big Fruit Cutter to peel.
-					'''
-			}
-			BigFruitleaf: {
-				DisplayName: Big Fruit Leaf
-				Tooltip: A leaf shed by palm trees. Used as crafting material.
-			}
-			BigFruitCutterbar: {
-				DisplayName: Big Fruit Cutter
-				Tooltip:
-					'''
-					Place down and right-click while holding a Big Fruit
-					to slice it into two halves of Peeled Big Fruit.
-					Quality is randomized.
-					'''
-			}
-
-			DecorticateBigFruit: {
-				Withered:  { DisplayName: Withered Peeled Big Fruit,  Tooltip: "A withered peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
-				Common:    { DisplayName: Peeled Big Fruit,           Tooltip: "A common peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
-				Excellent: { DisplayName: Excellent Peeled Big Fruit, Tooltip: "An excellent peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
-				Rare:      { DisplayName: Rare Peeled Big Fruit,      Tooltip: "A rare peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
-				Epic:      { DisplayName: Epic Peeled Big Fruit,      Tooltip: "An epic peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
-				Legendary: { DisplayName: Legendary Peeled Big Fruit, Tooltip: "A legendary peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
-				Mythic:    { DisplayName: Mythic Peeled Big Fruit,    Tooltip: "A mythic peeled fruit. Cook on a Cooking Pot to make Chewable Big Fruit." }
-			}
-
-			ChewableBigFruit: {
-				Withered:  { DisplayName: Withered Chewable Big Fruit,  Tooltip: "Eating it does nothing... but you still get a betel nut addiction count." }
-				Common:    { DisplayName: Chewable Big Fruit,           Tooltip: "Grants Chew Bliss Lv.0 for 3 minutes. +1 Betel Nut Addiction." }
-				Excellent: { DisplayName: Excellent Chewable Big Fruit, Tooltip: "Grants Chew Bliss Lv.1 for 3 minutes. +1 Betel Nut Addiction." }
-				Rare:      { DisplayName: Rare Chewable Big Fruit,      Tooltip: "Grants Chew Bliss Lv.2 for 3 minutes. +1 Betel Nut Addiction." }
-				Epic:      { DisplayName: Epic Chewable Big Fruit,      Tooltip: "Grants Chew Bliss Lv.3 for 3 minutes. +1 Betel Nut Addiction." }
-				Legendary: { DisplayName: Legendary Chewable Big Fruit, Tooltip: "Grants Chew Bliss Lv.4 for 3 minutes. +1 Betel Nut Addiction." }
-				Mythic:    { DisplayName: Mythic Chewable Big Fruit,    Tooltip: "Grants Chew Bliss Lv.5 for 3 minutes. +1 Betel Nut Addiction." }
-			}
+	ChewSatisfaction: {
+		Level0: {
+			DisplayName: Chew Satisfaction! (Level 0)
+			Description: Slightly increases combat stats, but grants Betel Nut Addiction stacks.
 		}
 
-		Tiles: {
-			BigFruitCutterbarTile: {
-				MapEntry: Big Fruit Cutter
-			}
+		Level1: {
+			DisplayName: Chew Satisfaction! (Level 1)
+			Description: Minorly increases combat stats, but grants Betel Nut Addiction stacks.
 		}
 
-		Buffs: {
-			ChewSatisfaction: {
-				Level0: { DisplayName: Chew Bliss Lv.0, Description: "+3% damage, +2% movement speed." }
-				Level1: { DisplayName: Chew Bliss Lv.1, Description: "+6% damage, +4% movement speed, +1 defense, +1 life regen." }
-				Level2: { DisplayName: Chew Bliss Lv.2, Description: "+9% damage, +6% movement speed, +2 defense, +2 life regen, +2% crit." }
-				Level3: { DisplayName: Chew Bliss Lv.3, Description: "+12% damage, +8% movement speed, +3 defense, +3 life regen, +4% crit." }
-				Level4: { DisplayName: Chew Bliss Lv.4, Description: "+15% damage, +10% movement speed, +4 defense, +4 life regen, +6% crit." }
-				Level5: { DisplayName: Chew Bliss Lv.5, Description: "+18% damage, +12% movement speed, +5 defense, +5 life regen, +8% crit." }
-			}
-			BetelNutAddictionBuff: {
-				DisplayName: Betel Nut Addiction
-				Description: You can't stop chewing... the count just keeps rising.
-			}
+		Level2: {
+			DisplayName: Chew Satisfaction! (Level 2)
+			Description: Moderately increases combat stats, but grants Betel Nut Addiction stacks.
+		}
+
+		Level3: {
+			DisplayName: Chew Satisfaction! (Level 3)
+			Description: Greatly increases combat stats, but grants Betel Nut Addiction stacks.
+		}
+
+		Level4: {
+			DisplayName: Chew Satisfaction! (Level 4)
+			Description: Massively increases combat stats, but grants Betel Nut Addiction stacks.
+		}
+
+		Level5: {
+			DisplayName: Chew Satisfaction! (Level 5)
+			Description: Grants godlike combat stats and life regeneration, but grants Betel Nut Addiction stacks.
+		}
+	}
+}
+
+Items: {
+	BigFruit: {
+		DisplayName: Big Fruit
+		Tooltip: A big fruit fallen from the tree, rock hard to the touch.
+	}
+
+	BigFruitCutterbar: {
+		DisplayName: Big Fruit Cutterbar
+		Tooltip: Looking at this thing makes your mouth water.
+	}
+
+	BigFruitleaf: {
+		DisplayName: Big Fruitleaf
+		Tooltip: A big fruit leaf fallen from the tree, rough to the touch.
+	}
+
+	HainanOriginalBigFruit: {
+		DisplayName: Hainan Original Big Fruit
+		Tooltip:
+			'''
+			A bitter, unripe big fruit with a strange taste that is hard to endure.
+			The easiest big fruit recipe for the early game.
+			Grants 5 minutes of [Chew Satisfaction!] Level 0 upon use.
+			'''
+	}
+
+	ChewableBigFruit: {
+		Withered: {
+			DisplayName: Withered Chewable Big Fruit
+			Tooltip: 
+				'''
+				This is a withered chewable betel nut.
+				Eating it directly gives absolutely no f**king effects, and you gain an addiction stack.
+				'''
+		}
+
+		Common: {
+			DisplayName: Common Chewable Big Fruit
+			Tooltip: 
+				'''
+				This is a common chewable betel nut.
+				Grants [Chew Satisfaction!] Level 0 (3 minutes) and an addiction stack upon use.
+				'''
+		}
+
+		Excellent: {
+			DisplayName: Excellent Chewable Big Fruit
+			Tooltip: 
+				'''
+				This is an excellent chewable betel nut.
+				Grants [Chew Satisfaction!] Level 1 (3 minutes) and an addiction stack upon use.
+				'''
+		}
+
+		Rare: {
+			DisplayName: Rare Chewable Big Fruit
+			Tooltip: 
+				'''
+				Good luck! This is a rare chewable betel nut.
+				Grants [Chew Satisfaction!] Level 2 (3 minutes) and an addiction stack upon use.
+				'''
+		}
+
+		Epic: {
+			DisplayName: Epic Chewable Big Fruit
+			Tooltip: 
+				'''
+				Insane luck! This is an epic chewable betel nut.
+				Grants [Chew Satisfaction!] Level 3 (3 minutes) and an addiction stack upon use.
+				'''
+		}
+
+		Legendary: {
+			DisplayName: Legendary Chewable Big Fruit
+			Tooltip: 
+				'''
+				You're invincible! This is a legendary chewable betel nut.
+				Grants [Chew Satisfaction!] Level 4 (3 minutes) and an addiction stack upon use.
+				'''
+		}
+
+		Mythic: {
+			DisplayName: Mythic Chewable Big Fruit
+			Tooltip: 
+				'''
+				The legendary holy fruit, ascend to heaven with a single bite! This is a mythic chewable betel nut.
+				Grants [Chew Satisfaction!] Level 5 (3 minutes) and an addiction stack upon use.
+				'''
+		}
+	}
+
+	DecorticateBigFruit: {
+		Withered: {
+			DisplayName: Withered Decorticated Big Fruit
+			Tooltip: This is a withered betel nut, it still needs cooking before you can chew it.
+		}
+
+		Common: {
+			DisplayName: Common Decorticated Big Fruit
+			Tooltip: This is a common betel nut, it still needs cooking before you can chew it.
+		}
+
+		Excellent: {
+			DisplayName: Excellent Decorticated Big Fruit
+			Tooltip: This is an excellent betel nut, it still needs cooking before you can chew it.
+		}
+
+		Rare: {
+			DisplayName: Rare Decorticated Big Fruit
+			Tooltip: Good luck! This is a rare betel nut, it still needs cooking before you can chew it.
+		}
+
+		Epic: {
+			DisplayName: Epic Decorticated Big Fruit
+			Tooltip: Insane luck! This is an epic betel nut, it still needs cooking before you can chew it.
+		}
+
+		Legendary: {
+			DisplayName: Legendary Decorticated Big Fruit
+			Tooltip: You're invincible! This is a legendary betel nut, it still needs cooking before you can chew it.
+		}
+
+		Mythic: {
+			DisplayName: Mythic Decorticated Big Fruit
+			Tooltip: The flesh of the legendary holy fruit! This is a mythic betel nut, it still needs cooking before you can chew it.
 		}
 	}
 }

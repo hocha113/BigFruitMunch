@@ -1,71 +1,168 @@
-# 简体中文本地化。新增条目会在构建/重载后自动同步到此文件。
-Mods: {
-	BigFruitMunch: {
-		DisplayName: 大果嚼嚼嚼
+﻿// ==================== 中文本地化文件 (zh-Hans.hjson) ====================
+Buffs: {
+	BetelNutAddictionBuff: {
+		DisplayName: 槟榔成瘾
+		Description: 你感觉到一阵空虚……必须要嚼点什么来缓解。
+	}
 
-		Items: {
-			BigFruit: {
-				DisplayName: 大果
-				Tooltip:
-					'''
-					从棕榈树掉落
-					可在沙地上种植，长成棕榈树
-					在【大果切割机】上右键即可切开
-					'''
-			}
-			BigFruitleaf: {
-				DisplayName: 大果叶
-				Tooltip: 棕榈树掉落的大叶子，可作为合成材料。
-			}
-			BigFruitCutterbar: {
-				DisplayName: 大果切割机
-				Tooltip:
-					'''
-					放置后右键并背包内有【大果】即可切开
-					切开会变成两半【去皮大果】，品质随机
-					'''
-			}
-
-			DecorticateBigFruit: {
-				Withered:  { DisplayName: 干瘪的去皮大果, Tooltip: "在烹饪锅中烧制可获得【可嚼大果】" }
-				Common:    { DisplayName: 普通的去皮大果, Tooltip: "在烹饪锅中烧制可获得【可嚼大果】" }
-				Excellent: { DisplayName: 优秀的去皮大果, Tooltip: "在烹饪锅中烧制可获得【可嚼大果】" }
-				Rare:      { DisplayName: 稀有的去皮大果, Tooltip: "在烹饪锅中烧制可获得【可嚼大果】" }
-				Epic:      { DisplayName: 史诗的去皮大果, Tooltip: "在烹饪锅中烧制可获得【可嚼大果】" }
-				Legendary: { DisplayName: 传奇的去皮大果, Tooltip: "在烹饪锅中烧制可获得【可嚼大果】" }
-				Mythic:    { DisplayName: 神话的去皮大果, Tooltip: "在烹饪锅中烧制可获得【可嚼大果】" }
-			}
-
-			ChewableBigFruit: {
-				Withered:  { DisplayName: 干瘪的可嚼大果, Tooltip: "嚼了什么效果都没有……还是攒下了一次槟榔成瘾。" }
-				Common:    { DisplayName: 普通的可嚼大果, Tooltip: "获得【嚼的爽！】0级 3分钟\n获得 1 次槟榔成瘾计数" }
-				Excellent: { DisplayName: 优秀的可嚼大果, Tooltip: "获得【嚼的爽！】1级 3分钟\n获得 1 次槟榔成瘾计数" }
-				Rare:      { DisplayName: 稀有的可嚼大果, Tooltip: "获得【嚼的爽！】2级 3分钟\n获得 1 次槟榔成瘾计数" }
-				Epic:      { DisplayName: 史诗的可嚼大果, Tooltip: "获得【嚼的爽！】3级 3分钟\n获得 1 次槟榔成瘾计数" }
-				Legendary: { DisplayName: 传奇的可嚼大果, Tooltip: "获得【嚼的爽！】4级 3分钟\n获得 1 次槟榔成瘾计数" }
-				Mythic:    { DisplayName: 神话的可嚼大果, Tooltip: "获得【嚼的爽！】5级 3分钟\n获得 1 次槟榔成瘾计数" }
-			}
+	ChewSatisfaction: {
+		Level0: {
+			DisplayName: 嚼的爽！(0级)
+			Description: 微微提升战斗属性，但会增加槟榔成瘾计数。
 		}
 
-		Tiles: {
-			BigFruitCutterbarTile: {
-				MapEntry: 大果切割机
-			}
+		Level1: {
+			DisplayName: 嚼的爽！(1级)
+			Description: 小幅提升战斗属性，但会增加槟榔成瘾计数。
 		}
 
-		Buffs: {
-			ChewSatisfaction: {
-				Level0: { DisplayName: 嚼的爽！0级, Description: "伤害 +3%，移动速度 +2%" }
-				Level1: { DisplayName: 嚼的爽！1级, Description: "伤害 +6%，移动速度 +4%，防御 +1，生命回复 +1" }
-				Level2: { DisplayName: 嚼的爽！2级, Description: "伤害 +9%，移动速度 +6%，防御 +2，生命回复 +2，暴击率 +2%" }
-				Level3: { DisplayName: 嚼的爽！3级, Description: "伤害 +12%，移动速度 +8%，防御 +3，生命回复 +3，暴击率 +4%" }
-				Level4: { DisplayName: 嚼的爽！4级, Description: "伤害 +15%，移动速度 +10%，防御 +4，生命回复 +4，暴击率 +6%" }
-				Level5: { DisplayName: 嚼的爽！5级, Description: "伤害 +18%，移动速度 +12%，防御 +5，生命回复 +5，暴击率 +8%" }
-			}
-			BetelNutAddictionBuff: {
-				DisplayName: 槟榔成瘾计数
-				Description: 你停不下来嚼了……那个数字还在涨。
-			}
+		Level2: {
+			DisplayName: 嚼的爽！(2级)
+			Description: 中幅提升战斗属性，但会增加槟榔成瘾计数。
+		}
+
+		Level3: {
+			DisplayName: 嚼的爽！(3级)
+			Description: 大幅提升战斗属性，但会增加槟榔成瘾计数。
+		}
+
+		Level4: {
+			DisplayName: 嚼的爽！(4级)
+			Description: 极大幅提升战斗属性，但会增加槟榔成瘾计数。
+		}
+
+		Level5: {
+			DisplayName: 嚼的爽！(5级)
+			Description: 获得了神话般的属性加成与生命恢复，但会增加槟榔成瘾计数。
+		}
+	}
+}
+
+Items: {
+	BigFruit: {
+		DisplayName: 大果
+		Tooltip: 从树上掉下来的大果，拿在手上梆硬
+	}
+
+	BigFruitCutterbar: {
+		DisplayName: 大果切割机
+		Tooltip: 看着这个东西，你感觉到口水直流
+	}
+
+	BigFruitleaf: {
+		DisplayName: 大果叶
+		Tooltip: 从树上掉下来的大果叶，摸着很粗糙
+	}
+
+	HainanOriginalBigFruit: {
+		DisplayName: 海南原味大果
+		Tooltip:
+			'''
+			青涩的苦味大果，有一种人难以忍受的奇怪口感
+			是前期最省事的大果配方
+			使用后获得5分钟【嚼的爽！】0级效果
+			'''
+	}
+
+	ChewableBigFruit: {
+		Withered: {
+			DisplayName: 干瘪的 可嚼大果
+			Tooltip: 
+				'''
+				这是一颗干瘪的可嚼槟榔。
+				直接吃什么b效果没有，并获得槟榔成瘾计数。
+				'''
+		}
+
+		Common: {
+			DisplayName: 普通的 可嚼大果
+			Tooltip: 
+				'''
+				这是一颗普通的可嚼槟榔。
+				使用后获得【嚼的爽！】0级（3分钟），并获得槟榔成瘾计数。
+				'''
+		}
+
+		Excellent: {
+			DisplayName: 优秀的 可嚼大果
+			Tooltip: 
+				'''
+				这是一颗优秀的可嚼槟榔。
+				使用后获得【嚼的爽！】1级（3分钟），并获得槟榔成瘾计数。
+				'''
+		}
+
+		Rare: {
+			DisplayName: 稀有的 可嚼大果
+			Tooltip: 
+				'''
+				运气不错，这是一颗稀有的可嚼槟榔。
+				使用后获得【嚼的爽！】2级（3分钟），并获得槟榔成瘾计数。
+				'''
+		}
+
+		Epic: {
+			DisplayName: 史诗的 可嚼大果
+			Tooltip: 
+				'''
+				究极狗运！这是一颗史诗的可嚼槟榔。
+				使用后获得【嚼的爽！】3级（3分钟），并获得槟榔成瘾计数。
+				'''
+		}
+
+		Legendary: {
+			DisplayName: 传奇的 可嚼大果
+			Tooltip: 
+				'''
+				你无敌了，这是一颗传奇的可嚼槟榔。
+				使用后获得【嚼的爽！】4级（3分钟），并获得槟榔成瘾计数。
+				'''
+		}
+
+		Mythic: {
+			DisplayName: 神话的 可嚼大果
+			Tooltip: 
+				'''
+				传说中的圣果，吃一口羽化登仙！这是一颗神话的可嚼槟榔。
+				使用后获得【嚼的爽！】5级（3分钟），并获得槟榔成瘾计数。
+				'''
+		}
+	}
+
+	DecorticateBigFruit: {
+		Withered: {
+			DisplayName: 干瘪的 去皮大果
+			Tooltip: 这是一颗干瘪的槟榔，还需要烹饪才能嚼。
+		}
+
+		Common: {
+			DisplayName: 普通的 去皮大果
+			Tooltip: 这是一颗普通的槟榔，还需要烹饪才能嚼。
+		}
+
+		Excellent: {
+			DisplayName: 优秀的 去皮大果
+			Tooltip: 这是一颗优秀的槟榔，还需要烹饪才能嚼。
+		}
+
+		Rare: {
+			DisplayName: 稀有的 去皮大果
+			Tooltip: 运气不错，这是一颗稀有的槟榔，还需要烹饪才能嚼。
+		}
+
+		Epic: {
+			DisplayName: 史诗的 去皮大果
+			Tooltip: 究极狗运！这是一颗史诗的槟榔，还需要烹饪才能嚼。
+		}
+
+		Legendary: {
+			DisplayName: 传奇的 去皮大果
+			Tooltip: 你无敌了，这是一颗传奇的槟榔，还需要烹饪才能嚼。
+		}
+
+		Mythic: {
+			DisplayName: 神话的 去皮大果
+			Tooltip: 传说中的圣果的果肉！这是一颗神话的槟榔，还需要烹饪才能嚼。
 		}
 	}
 }

@@ -70,7 +70,7 @@ namespace BigFruitMunch.Content
             Main.tileLavaDeath[Type] = true;
             Main.tileTable[Type] = false;
 
-            TileID.Sets.HasOutlines[Type] = true;
+            TileID.Sets.HasOutlines[Type] = false;
             TileID.Sets.DisableSmartCursor[Type] = true;
             TileID.Sets.AvoidedByNPCs[Type] = true;
 
