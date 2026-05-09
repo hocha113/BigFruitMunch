@@ -1,4 +1,4 @@
-// ==================== Ó¢ÎÄ±¾µØ»¯ÎÄ¼þ (en-US.hjson) ====================
+// ==================== Ó¢ï¿½Ä±ï¿½ï¿½Ø»ï¿½ï¿½Ä¼ï¿½ (en-US.hjson) ====================
 Buffs: {
 	BetelNutAddictionBuff: {
 		DisplayName: Betel Nut Addiction
@@ -67,7 +67,7 @@ Items: {
 	ChewableBigFruit: {
 		Withered: {
 			DisplayName: Withered Chewable Big Fruit
-			Tooltip: 
+			Tooltip:
 				'''
 				This is a withered chewable betel nut.
 				Eating it directly gives absolutely no f**king effects, and you gain an addiction stack.
@@ -76,7 +76,7 @@ Items: {
 
 		Common: {
 			DisplayName: Common Chewable Big Fruit
-			Tooltip: 
+			Tooltip:
 				'''
 				This is a common chewable betel nut.
 				Grants [Chew Satisfaction!] Level 0 (3 minutes) and an addiction stack upon use.
@@ -85,7 +85,7 @@ Items: {
 
 		Excellent: {
 			DisplayName: Excellent Chewable Big Fruit
-			Tooltip: 
+			Tooltip:
 				'''
 				This is an excellent chewable betel nut.
 				Grants [Chew Satisfaction!] Level 1 (3 minutes) and an addiction stack upon use.
@@ -94,7 +94,7 @@ Items: {
 
 		Rare: {
 			DisplayName: Rare Chewable Big Fruit
-			Tooltip: 
+			Tooltip:
 				'''
 				Good luck! This is a rare chewable betel nut.
 				Grants [Chew Satisfaction!] Level 2 (3 minutes) and an addiction stack upon use.
@@ -103,7 +103,7 @@ Items: {
 
 		Epic: {
 			DisplayName: Epic Chewable Big Fruit
-			Tooltip: 
+			Tooltip:
 				'''
 				Insane luck! This is an epic chewable betel nut.
 				Grants [Chew Satisfaction!] Level 3 (3 minutes) and an addiction stack upon use.
@@ -112,7 +112,7 @@ Items: {
 
 		Legendary: {
 			DisplayName: Legendary Chewable Big Fruit
-			Tooltip: 
+			Tooltip:
 				'''
 				You're invincible! This is a legendary chewable betel nut.
 				Grants [Chew Satisfaction!] Level 4 (3 minutes) and an addiction stack upon use.
@@ -121,7 +121,7 @@ Items: {
 
 		Mythic: {
 			DisplayName: Mythic Chewable Big Fruit
-			Tooltip: 
+			Tooltip:
 				'''
 				The legendary holy fruit, ascend to heaven with a single bite! This is a mythic chewable betel nut.
 				Grants [Chew Satisfaction!] Level 5 (3 minutes) and an addiction stack upon use.

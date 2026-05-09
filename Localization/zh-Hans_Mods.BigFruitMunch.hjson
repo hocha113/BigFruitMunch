@@ -1,4 +1,4 @@
-﻿// ==================== 中文本地化文件 (zh-Hans.hjson) ====================
+// ==================== Ӣ�ı��ػ��ļ� (en-US.hjson) ====================
 Buffs: {
 	BetelNutAddictionBuff: {
 		DisplayName: 槟榔成瘾
@@ -67,7 +67,7 @@ Items: {
 	ChewableBigFruit: {
 		Withered: {
 			DisplayName: 干瘪的 可嚼大果
-			Tooltip: 
+			Tooltip:
 				'''
 				这是一颗干瘪的可嚼槟榔。
 				直接吃什么b效果没有，并获得槟榔成瘾计数。
@@ -76,7 +76,7 @@ Items: {
 
 		Common: {
 			DisplayName: 普通的 可嚼大果
-			Tooltip: 
+			Tooltip:
 				'''
 				这是一颗普通的可嚼槟榔。
 				使用后获得【嚼的爽！】0级（3分钟），并获得槟榔成瘾计数。
@@ -85,7 +85,7 @@ Items: {
 
 		Excellent: {
 			DisplayName: 优秀的 可嚼大果
-			Tooltip: 
+			Tooltip:
 				'''
 				这是一颗优秀的可嚼槟榔。
 				使用后获得【嚼的爽！】1级（3分钟），并获得槟榔成瘾计数。
@@ -94,7 +94,7 @@ Items: {
 
 		Rare: {
 			DisplayName: 稀有的 可嚼大果
-			Tooltip: 
+			Tooltip:
 				'''
 				运气不错，这是一颗稀有的可嚼槟榔。
 				使用后获得【嚼的爽！】2级（3分钟），并获得槟榔成瘾计数。
@@ -103,7 +103,7 @@ Items: {
 
 		Epic: {
 			DisplayName: 史诗的 可嚼大果
-			Tooltip: 
+			Tooltip:
 				'''
 				究极狗运！这是一颗史诗的可嚼槟榔。
 				使用后获得【嚼的爽！】3级（3分钟），并获得槟榔成瘾计数。
@@ -112,7 +112,7 @@ Items: {
 
 		Legendary: {
 			DisplayName: 传奇的 可嚼大果
-			Tooltip: 
+			Tooltip:
 				'''
 				你无敌了，这是一颗传奇的可嚼槟榔。
 				使用后获得【嚼的爽！】4级（3分钟），并获得槟榔成瘾计数。
@@ -121,7 +121,7 @@ Items: {
 
 		Mythic: {
 			DisplayName: 神话的 可嚼大果
-			Tooltip: 
+			Tooltip:
 				'''
 				传说中的圣果，吃一口羽化登仙！这是一颗神话的可嚼槟榔。
 				使用后获得【嚼的爽！】5级（3分钟），并获得槟榔成瘾计数。
