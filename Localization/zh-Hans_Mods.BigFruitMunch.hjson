@@ -1,3 +1,4 @@
+// ==================== Ӣ�ı��ػ��ļ� (en-US.hjson) ====================
 Buffs: {
 	BetelNutAddictionBuff: {
 		DisplayName: 槟榔成瘾
@@ -55,12 +56,7 @@ Items: {
 
 	HainanOriginalBigFruit: {
 		DisplayName: 海南原味大果
-		Tooltip:
-			'''
-			青涩的苦味大果，有一种人难以忍受的奇怪口感
-			是前期最省事的大果配方
-			使用后获得5分钟【嚼的爽！】0级效果
-			'''
+		Tooltip: 青涩的苦味大果，有一种人难以忍受的奇怪口感
 	}
 
 	ChewableBigFruit: {
@@ -75,50 +71,32 @@ Items: {
 
 		Common: {
 			DisplayName: 普通的 可嚼大果
-			Tooltip:
-				'''
-				这是一颗普通的可嚼槟榔。
-				'''
+			Tooltip: 这是一颗普通的可嚼槟榔。
 		}
 
 		Excellent: {
 			DisplayName: 优秀的 可嚼大果
-			Tooltip:
-				'''
-				这是一颗优秀的可嚼槟榔。
-				'''
+			Tooltip: 这是一颗优秀的可嚼槟榔。
 		}
 
 		Rare: {
 			DisplayName: 稀有的 可嚼大果
-			Tooltip:
-				'''
-				运气不错，这是一颗稀有的可嚼槟榔。
-				'''
+			Tooltip: 运气不错，这是一颗稀有的可嚼槟榔。
 		}
 
 		Epic: {
 			DisplayName: 史诗的 可嚼大果
-			Tooltip:
-				'''
-				究极狗运！这是一颗史诗的可嚼槟榔。
-				'''
+			Tooltip: 究极狗运！这是一颗史诗的可嚼槟榔。
 		}
 
 		Legendary: {
 			DisplayName: 传奇的 可嚼大果
-			Tooltip:
-				'''
-				你无敌了，这是一颗传奇的可嚼槟榔。
-				'''
+			Tooltip: 你无敌了，这是一颗传奇的可嚼槟榔。
 		}
 
 		Mythic: {
 			DisplayName: 神话的 可嚼大果
-			Tooltip:
-				'''
-				传说中的圣果，吃一口羽化登仙！这是一颗神话的可嚼槟榔。
-				'''
+			Tooltip: 传说中的圣果，吃一口羽化登仙！这是一颗神话的可嚼槟榔。
 		}
 	}
 
