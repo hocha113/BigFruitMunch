@@ -1,3 +1,5 @@
+global using InnoVault;
+global using Microsoft.Xna.Framework;
 using Terraria.ModLoader;
 
 namespace BigFruitMunch

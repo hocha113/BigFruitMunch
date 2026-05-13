@@ -1,5 +1,6 @@
-displayName = ?????
+displayName = 大果大果嚼嚼嚼
 author = HoCha113
 version = 0.1
-homepage =
+modReferences = InnoVault@1.9.92
+sortAfter = InnoVault
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*

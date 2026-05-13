@@ -13,22 +13,8 @@ namespace BigFruitMunch.Content
     /// </summary>
     public sealed class BigFruitQualityShader : ModSystem
     {
-        private static Asset<Effect> _filter;
-
-        public static Effect Effect => _filter?.Value;
-
-        public override void Load()
-        {
-            if (Main.dedServ) return;
-            _filter = ModContent.Request<Effect>("BigFruitMunch/Assets/Effects/BigFruitQualityFilter",
-                AssetRequestMode.ImmediateLoad);
-        }
-
-        public override void Unload()
-        {
-            _filter = null;
-        }
-
+        [VaultLoaden("BigFruitMunch/Assets/Effects/")]
+        public static Effect BigFruitQualityFilter { get; set; }
         /// <summary>
         /// 各品质对应的滤镜参数。0 表示该品质不需要这个特性。
         /// 字段顺序：(去饱和, 描边强度, 流光强度, 脉冲速度 rad/s, 色散强度, 整体强度)
@@ -56,7 +42,7 @@ namespace BigFruitMunch.Content
         /// <summary>设置滤镜参数为指定品质（不会切换 SpriteBatch，调用者自行 End/Begin）。</summary>
         public static bool ApplyParams(BigFruitQuality quality, Vector2 texSize)
         {
-            Effect e = Effect;
+            Effect e = BigFruitQualityFilter;
             if (e == null) return false;
 
             var p = GetParams(quality);
@@ -87,7 +73,7 @@ namespace BigFruitMunch.Content
             sb.End();
             sb.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend,
                 Main.DefaultSamplerState, DepthStencilState.None,
-                RasterizerState.CullNone, Effect, Main.UIScaleMatrix);
+                RasterizerState.CullNone, BigFruitQualityFilter, Main.UIScaleMatrix);
 
             sb.Draw(tex, position, frame, color, 0f, origin, scale, SpriteEffects.None, 0f);
 
@@ -110,7 +96,7 @@ namespace BigFruitMunch.Content
             sb.End();
             sb.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend,
                 Main.DefaultSamplerState, DepthStencilState.None,
-                RasterizerState.CullNone, Effect, Main.GameViewMatrix.TransformationMatrix);
+                RasterizerState.CullNone, BigFruitQualityFilter, Main.GameViewMatrix.TransformationMatrix);
 
             sb.Draw(tex, worldPos, frame, color, rotation, origin, scale, SpriteEffects.None, 0f);
 
