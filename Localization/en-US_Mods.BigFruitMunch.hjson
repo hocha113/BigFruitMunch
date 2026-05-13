@@ -1,8 +1,36 @@
-// ==================== Ӣ�ı��ػ��ļ� (en-US.hjson) ====================
+Common.AddictionGain: +{0} Addiction
+
 Buffs: {
 	BetelNutAddictionBuff: {
 		DisplayName: Betel Nut Addiction
 		Description: You feel an aching emptiness... You need to chew on something to ease it.
+	}
+
+	BetelWithdrawal: {
+		Level1: {
+			DisplayName: Munchies
+			Description: Your mouth feels empty. You feel like chewing on something.
+		}
+
+		Level2: {
+			DisplayName: Craving
+			Description: Your mouth waters uncontrollably. Movement speed slightly reduced.
+		}
+
+		Level3: {
+			DisplayName: Restless
+			Description: The screen begins to warp. Your hands shake. Damage and movement speed reduced.
+		}
+
+		Level4: {
+			DisplayName: Withdrawal
+			Description: Your head feels heavy and your vision blurs. Life regen stops and stats drop sharply.
+		}
+
+		Level5: {
+			DisplayName: Severe Withdrawal
+			Description: Your heartbeat thunders, your vision warps and greys out, and you bleed continuously. Chew something, NOW!
+		}
 	}
 
 	ChewSatisfaction: {

@@ -33,10 +33,11 @@ namespace BigFruitMunch.Content
             Item.useTurn = true;
             Item.UseSound = SoundID.Item2;
             Item.consumable = true;
+            Item.autoReuse = true;
         }
 
         public override bool? UseItem(Player player) {
-            player.GetModPlayer<BetelNutPlayer>().AddAddictionCount(1);
+            player.GetModPlayer<BetelNutPlayer>().OnChew(1);
             player.AddBuff(ModContent.BuffType<ChewSatisfaction0>(), 60 * 60 * 5);
             return true;
         }

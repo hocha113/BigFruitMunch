@@ -27,6 +27,7 @@ namespace BigFruitMunch.Content
             Item.autoReuse = true;
             Item.consumable = true;
             Item.createTile = TileID.Saplings;
+            Item.autoReuse = true;
         }
 
         public override bool? UseItem(Player player) {

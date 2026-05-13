@@ -42,14 +42,15 @@ namespace BigFruitMunch.Content
             Item.useTurn = true;
             Item.UseSound = SoundID.Item2;
             Item.consumable = true;
+            Item.autoReuse = true;
         }
 
         public override bool? UseItem(Player player) {
-            // 不论何种品质都计入槟榔成瘾计数
+            // 按品质给不同上瘾增量：神话级 >> 干瘪
             var betel = player.GetModPlayer<BetelNutPlayer>();
-            betel.AddAddictionCount(1);
+            betel.OnChew(GetChewAmountForQuality(Quality));
 
-            // 干瘪：什么效果都没有，只增加成瘾
+            // 干瘪：什么效果都没有，只重置戒断
             int level = Quality.ToBuffLevel();
             if (level >= 0) {
                 int buffType = ChewSatisfactionBuffBase.GetTypeForLevel(level);
@@ -57,6 +58,18 @@ namespace BigFruitMunch.Content
             }
             return true;
         }
+
+        /// <summary>不同品质的"上瘾度"增量。</summary>
+        private static int GetChewAmountForQuality(BigFruitQuality q) => q switch {
+            BigFruitQuality.Withered => 0, // 干瘪：纯粹的口腔运动，不上瘾
+            BigFruitQuality.Common => 1,
+            BigFruitQuality.Excellent => 1,
+            BigFruitQuality.Rare => 1,
+            BigFruitQuality.Epic => 2,
+            BigFruitQuality.Legendary => 2,
+            BigFruitQuality.Mythic => 3,
+            _ => 1,
+        };
 
         public override bool PreDrawInInventory(SpriteBatch spriteBatch, Vector2 position, Rectangle frame,
             Color drawColor, Color itemColor, Vector2 origin, float scale) {

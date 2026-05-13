@@ -7,6 +7,11 @@
 	<PropertyGroup>
 		
 	</PropertyGroup>
+	<ItemGroup>
+	  <Reference Include="InnoVault">
+	    <HintPath>..\InnoVault\bin\Debug\net8.0\InnoVault.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
 
 	<!-- References -->
 

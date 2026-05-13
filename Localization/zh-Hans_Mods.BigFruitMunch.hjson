@@ -1,8 +1,36 @@
-// ==================== Ӣ�ı��ػ��ļ� (en-US.hjson) ====================
+Common.AddictionGain: +{0} 成瘾
+
 Buffs: {
 	BetelNutAddictionBuff: {
 		DisplayName: 槟榔成瘾
 		Description: 你感觉到一阵空虚……必须要嚼点什么来缓解。
+	}
+
+	BetelWithdrawal: {
+		Level1: {
+			DisplayName: 嘴馋
+			Description: 嘴里淡出鸟来，总觉得应该嚼点什么。
+		}
+
+		Level2: {
+			DisplayName: 渴求
+			Description: 嘴里发酸、口水不停。移动速度略微下降。
+		}
+
+		Level3: {
+			DisplayName: 焦躁
+			Description: 屏幕开始扭曲，心慌、手颤，伤害与移动速度下降。
+		}
+
+		Level4: {
+			DisplayName: 戒断
+			Description: 头重脚轻、眼前发花，生命无法回复且属性大幅下降。
+		}
+
+		Level5: {
+			DisplayName: 极度戒断
+			Description: 心跳轰鸣，视野扭曲变灰，持续掉血并失去战斗力。再不嚼点东西就完了！
+		}
 	}
 
 	ChewSatisfaction: {
