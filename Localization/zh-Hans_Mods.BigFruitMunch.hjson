@@ -1,0 +1,382 @@
+Common: {
+	AddictionGain: +{0} 成瘾
+	PlaceboChew: 嚼了个寂寞
+	StuckTeeth: 硌牙了！这果硬得离谱
+	CutterNoFruit: 切割机：果呢？
+	CutterResult: 切出了：{0}
+	CutterResultMythic: 神话出货！{0}，嘴已经开始自己嚼了
+
+	WithdrawalNag: {
+		Level1: 嘴里没活了
+		Level2: 口水开始自己上班
+	}
+
+	Blessing: {
+		Wealth: {
+			Line1: 招财进宝，嘴一动财源滚滚
+			Line2: 财神附体，钱自己长腿来找你
+			Line3: 越嚼越有，金光护体
+		}
+
+		Guard: {
+			Line1: 镇宅辟邪，怪都不敢碰你
+			Line2: 金钟罩护体，稳如老狗
+			Line3: 嚼出铁布衫，刀枪也就那样
+		}
+
+		Enlighten: {
+			Line1: 开光加持，越嚼越通透
+			Line2: 佛系嚼大果，回血又顺气
+			Line3: 金身护体，伤痛随风去
+		}
+	}
+
+	Hallucination: {
+		Line1: 大果在叫我……
+		Line2: 你听见了吗，口水在唱歌
+		Line3: 墙在嚼东西
+		Line4: 再嚼一口就不馋了，真的
+		Line5: 那边……飘过去一颗果
+	}
+
+	PhantomChew: 幻象嚼食……好像，舒服了一点？
+
+	Unlock: {
+		Glide: 脚下生风！按住跳可滑翔缓降
+		Spelunk: 探宝之眼！矿石宝藏开始发光
+		Dash: 腿不是自己的！双击方向灵动冲刺
+		DoubleJump: 二段跳！空中再蹬一脚
+		Compass: 寻宝直觉！屏幕边缘指出宝藏方向
+		Fly: 羽化登仙！按住跳直接起飞
+	}
+
+	FeedSuccess: "{0} 嚼上头了！这波好商量"
+
+	NPCHigh: {
+		Line1: 这果……上头啊！
+		Line2: 老板今天打骨折，随便挑
+		Line3: 再来一口，啥都好说
+	}
+}
+
+UI: {
+	BigFruitCutterGacha: {
+		Title: 大果玄学切割终端
+		Subtitle: Mk1民用版：别问概率，问就是嘴感
+		SubtitleMk2: Mk2金属玄学版：这台机子真的懂货
+		StoredFruit: 机内大果：{0}
+		PendingResult: 待领取去皮大果：{0}
+		RollTen: 十连开嚼
+		RollOne: 单抽试嘴
+		DepositAll: 灌入大果
+		WithdrawAll: 把果吐出
+		ClaimAll: 领取果肉
+		NotEnoughFruit: 果不够，嘴先别急
+		Occupied: 这台切割机正在被别人灌输玄学
+		ResultLine: 大果机高呼：{0}
+		MythicLine: 神话出货！{0}，切割机开始反向上香
+		Rolling: 嚼算中
+		Revealing: 开果中
+		Core: 抽大果
+		PanelInventory: 投喂仓
+		PanelMachine: 玄学切割腔
+		PanelResults: 十连结果墙
+		ReadyHint: 大果已就位，嘴可以开始上压力
+		MissingFruit: 还差 {0} 个大果才能十连
+		StatusIdle: 等待投喂，切割机正在装懂
+		StatusRolling: 正在高速嚼算概率
+		StatusReveal: 正在揭果：{0}/{1}
+		StatusReady: 结果已封存，记得领取果肉
+
+		QualityShort: {
+			Withered: 瘪
+			Common: 普
+			Excellent: 优
+			Rare: 稀
+			Epic: 史
+			Legendary: 传
+			Mythic: 神
+		}
+	}
+}
+
+Buffs: {
+	BetelNutAddictionBuff: {
+		DisplayName: 大果成瘾
+		DisplayNameWithCount: "{0}（{1}）"
+		Description: 你感觉到一阵空虚……必须要嚼点什么来缓解。
+	}
+
+	BetelWithdrawal: {
+		Level1: {
+			DisplayName: 嘴馋
+			Description: 嘴里淡出鸟来，脚步都虚了点。移动速度轻微下降。
+		}
+
+		Level2: {
+			DisplayName: 渴求
+			Description: 嘴里发酸、口水不停，连出手都没那么有劲。移动速度与伤害略微下降。
+		}
+
+		Level3: {
+			DisplayName: 焦躁
+			Description: 屏幕开始扭曲，心慌、手颤，伤害与移动速度下降。
+		}
+
+		Level4: {
+			DisplayName: 戒断
+			Description: 头重脚轻、眼前发花，生命无法回复且属性大幅下降。
+		}
+
+		Level5: {
+			DisplayName: 极度戒断
+			Description: 心跳轰鸣，视野扭曲变灰，持续掉血并失去战斗力。再不嚼点东西就完了！
+		}
+	}
+
+	ChewSatisfaction: {
+		Level1: {
+			DisplayName: 嚼的爽！(1级)
+			Description: 上头了！脚下生风可滑翔缓降，夜里也看得清。嘴一动，腿也飘。
+		}
+
+		Level2: {
+			DisplayName: 嚼的爽！(2级)
+			Description: 上头加深，睁开“探宝之眼”，地下矿石与宝藏自己发光招手。
+		}
+
+		Level3: {
+			DisplayName: 嚼的爽！(3级)
+			Description: 腿不是自己的了！双击方向就能灵动冲刺，外加滑翔与透视。
+		}
+
+		Level4: {
+			DisplayName: 嚼的爽！(4级)
+			Description: 上头到能二段跳，空中再蹬一脚；还多了危险感知，陷阱无所遁形。
+		}
+
+		Level5: {
+			DisplayName: 嚼的爽！(5级)
+			Description: 金口玉牙开光：屏幕指出附近宝藏方向，掉落物全屏磁吸进兜。
+		}
+
+		Level6: {
+			DisplayName: 嚼的爽！(6级)
+			Description: 羽化登仙，按住跳直接起飞；探宝、危险、生物全套透视拉满。
+		}
+	}
+}
+
+Items: {
+	BigFruit: {
+		DisplayName: 大果
+		Tooltip: 从树上掉下来的大果，拿在手上梆硬
+	}
+
+	BigFruitCutterbar: {
+		DisplayName: 大果切割机
+		Tooltip:
+			'''
+			看着这个东西，你感觉到口水直流。
+			放置后可将大果切为去皮大果，也可将可嚼大果打包为日常装大果。
+			'''
+	}
+
+	BigFruitCutterbarMk2: {
+		DisplayName: 大果切割机Mk2
+		Tooltip:
+			'''
+			升级版的大果切割机，散发着一股强烈的金属气息。
+			兼容切果功能，并可将可嚼大果打包为礼盒装精品大果（肉后）。
+			'''
+	}
+
+	BigFruitleaf: {
+		DisplayName: 大果叶
+		Tooltip: 从树上掉下来的大果叶，摸着很粗糙
+	}
+
+	HailanBigFruit: {
+		DisplayName: 海南原味大果
+		Tooltip: 青涩的苦味大果，有一种人难以忍受的奇怪口感
+	}
+
+	BetelTreat: {
+		DisplayName: 敬一口大果
+		Tooltip:
+			'''
+			对着附近的镇民使用，敬他一口大果。
+			镇民会上头一分钟：商店打折，还会开始说胡话。
+			'''
+	}
+
+	ChewableBigFruit: {
+		Withered: {
+			DisplayName: 干瘪的 可嚼大果
+			Tooltip:
+				'''
+				这是一颗干瘪的可嚼大果。
+				皱巴巴的，看着就像在敷衍你的嘴。
+				'''
+		}
+
+		Common: {
+			DisplayName: 普通的 可嚼大果
+			Tooltip: 这是一颗普通的可嚼大果。
+		}
+
+		Excellent: {
+			DisplayName: 优秀的 可嚼大果
+			Tooltip: 这是一颗优秀的可嚼大果。
+		}
+
+		Rare: {
+			DisplayName: 稀有的 可嚼大果
+			Tooltip: 运气不错，这是一颗稀有的可嚼大果。
+		}
+
+		Epic: {
+			DisplayName: 史诗的 可嚼大果
+			Tooltip: 究极狗运！这是一颗史诗的可嚼大果。
+		}
+
+		Legendary: {
+			DisplayName: 传奇的 可嚼大果
+			Tooltip: 你无敌了，这是一颗传奇的可嚼大果。
+		}
+
+		Mythic: {
+			DisplayName: 神话的 可嚼大果
+			Tooltip: 传说中的圣果，吃一口羽化登仙！
+		}
+	}
+
+	DailyPackBigFruit: {
+		Withered: {
+			DisplayName: 日常装·干瘪大果
+			Tooltip: 简易日常包装，里面装的是体面，嚼的是空气。
+		}
+
+		Common: {
+			DisplayName: 日常装·普通大果
+			Tooltip: 白袋日常包装，方便携带。
+		}
+
+		Excellent: {
+			DisplayName: 日常装·优秀大果
+			Tooltip: 枫叶纹日常包装，品质尚可。
+		}
+
+		Rare: {
+			DisplayName: 日常装·稀有大果
+			Tooltip: 蓝袋日常包装，运气不错。
+		}
+
+		Epic: {
+			DisplayName: 日常装·史诗大果
+			Tooltip: 紫袋日常包装，究极狗运！
+		}
+
+		Legendary: {
+			DisplayName: 日常装·传奇大果
+			Tooltip: 黄袋日常包装，你无敌了！
+		}
+
+		Mythic: {
+			DisplayName: 日常装·神话大果
+			Tooltip: 白袋日常包装，传说中的圣果。
+		}
+	}
+
+	GiftBoxPremiumBigFruit: {
+		Withered: {
+			DisplayName: 礼盒装精品·干瘪大果
+			Tooltip: 精装礼盒，打开之后全场沉默。
+		}
+
+		Common: {
+			DisplayName: 礼盒装精品·普通大果
+			Tooltip: 白袋精装礼盒，体面之选。
+		}
+
+		Excellent: {
+			DisplayName: 礼盒装精品·优秀大果
+			Tooltip: 枫叶纹精装礼盒，送礼佳品。
+		}
+
+		Rare: {
+			DisplayName: 礼盒装精品·稀有大果
+			Tooltip: 精装礼盒，吉祥如意。
+		}
+
+		Epic: {
+			DisplayName: 礼盒装精品·史诗大果
+			Tooltip: 精装礼盒，坚如磐石。
+		}
+
+		Legendary: {
+			DisplayName: 礼盒装精品·传奇大果
+			Tooltip: 精装礼盒，有容乃大。
+		}
+
+		Mythic: {
+			DisplayName: 礼盒装精品·神话大果
+			Tooltip: 红霞贯日精装礼盒，传说中的至尊极品。
+		}
+	}
+
+	DecorticateBigFruit: {
+		Withered: {
+			DisplayName: 干瘪的 去皮大果
+			Tooltip: 这是一颗干瘪的大果，还需要烹饪才能嚼。
+		}
+
+		Common: {
+			DisplayName: 普通的 去皮大果
+			Tooltip: 这是一颗普通的大果，还需要烹饪才能嚼。
+		}
+
+		Excellent: {
+			DisplayName: 优秀的 去皮大果
+			Tooltip: 这是一颗优秀的大果，还需要烹饪才能嚼。
+		}
+
+		Rare: {
+			DisplayName: 稀有的 去皮大果
+			Tooltip: 运气不错，这是一颗稀有的大果，还需要烹饪才能嚼。
+		}
+
+		Epic: {
+			DisplayName: 史诗的 去皮大果
+			Tooltip: 究极狗运！这是一颗史诗的大果，还需要烹饪才能嚼。
+		}
+
+		Legendary: {
+			DisplayName: 传奇的 去皮大果
+			Tooltip: 你无敌了，这是一颗传奇的大果，还需要烹饪才能嚼。
+		}
+
+		Mythic: {
+			DisplayName: 神话的 去皮大果
+			Tooltip: 传说中的圣果的果肉！这是一颗神话的大果，还需要烹饪才能嚼。
+		}
+	}
+}
+
+Tiles: {
+	BigFruitCutterbarTile.MapEntry: 大果切割机
+	BigFruitCutterbarMk2Tile.MapEntry: 大果切割机Mk2
+}
+
+FutureContent: {
+	HechengTianxia: {
+		Note: 和成天下系列将在后续版本开放，配方比例与日常装相同。
+		Withered.DisplayName: 和天下普通装
+		Common.DisplayName: 红袋装·和成天下
+		Excellent.DisplayName: 紫袋装·和成天下
+		Rare.DisplayName: 福星高照·和成天下
+		Epic.DisplayName: 金石之交·和成天下
+		Legendary.DisplayName: 海纳百川·和成天下
+		Mythic.DisplayName: 白虹贯日·和成天下
+	}
+}

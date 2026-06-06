@@ -1,0 +1,386 @@
+Common: {
+	AddictionGain: +{0} Addiction
+	PlaceboChew: Chewed absolutely nothing
+	StuckTeeth: Chipped a tooth! This fruit is absurdly hard
+	CutterNoFruit: Cutterbar: where fruit?
+	CutterResult: Sliced out: {0}
+	CutterResultMythic: Mythic pull! {0}. Your mouth is chewing by itself
+
+	WithdrawalNag: {
+		Level1: Your mouth has no job
+		Level2: The drool clocked in
+	}
+
+	Blessing: {
+		Wealth: {
+			Line1: Fortune comes! One chew and the money rolls in
+			Line2: The wealth god possesses you, coins grow legs
+			Line3: The more you chew, the richer you get
+		}
+
+		Guard: {
+			Line1: Wards off evil, even monsters keep their distance
+			Line2: Golden bell shield on, steady as an old dog
+			Line3: Chewed up an iron shirt, blades feel meh now
+		}
+
+		Enlighten: {
+			Line1: Blessed and enlightened, clearer with every chew
+			Line2: Zen big-fruit chewing, heals and soothes
+			Line3: Golden body on, the pain drifts away
+		}
+	}
+
+	Hallucination: {
+		Line1: The big fruit is calling me...
+		Line2: Did you hear it? The drool is singing
+		Line3: The wall is chewing something
+		Line4: One more chew and the craving stops, for real
+		Line5: A fruit just drifted by over there...
+	}
+
+	PhantomChew: Phantom chew... feels a little better? maybe?
+
+	Unlock: {
+		Glide: Wind underfoot! Hold jump to glide
+		Spelunk: Treasure eye! Ores and chests start glowing
+		Dash: Legs on autopilot! Double-tap to dash
+		DoubleJump: Double jump! Kick off the air again
+		Compass: Treasure instinct! The screen edge points to loot
+		Fly: Ascension! Hold jump to take off
+	}
+
+	FeedSuccess: "{0} is chewing now! Much easier to deal with"
+
+	NPCHigh: {
+		Line1: This fruit... what a high!
+		Line2: Everything's on a fat discount today, take your pick
+		Line3: One more bite and anything's negotiable
+	}
+}
+
+UI: {
+	BigFruitCutterGacha: {
+		Title: Big Fruit Occult Cutter Terminal
+		Subtitle: Mk1 civilian unit: do not ask odds, ask mouthfeel
+		SubtitleMk2: Mk2 metallic occult unit: this machine knows goods
+		StoredFruit: Stored big fruits: {0}
+		PendingResult: Pending decorticated fruits: {0}
+		RollTen: Ten-Pull Munch
+		RollOne: Single Mouth Test
+		DepositAll: Feed Fruits
+		WithdrawAll: Spit Fruits
+		ClaimAll: Claim Flesh
+		NotEnoughFruit: Not enough fruit. Calm your mouth
+		Occupied: Someone else is feeding occult logic into this cutterbar
+		ResultLine: The fruit machine screams: {0}
+		MythicLine: Mythic pull! {0}. The cutterbar starts worshipping itself
+		Rolling: Munchulating
+		Revealing: Revealing
+		Core: Fruit Pull
+		PanelInventory: Feeding Bay
+		PanelMachine: Occult Cutter Chamber
+		PanelResults: Ten-Pull Result Wall
+		ReadyHint: Fruits loaded. The mouth pressure may begin
+		MissingFruit: "{0} more big fruits needed for ten-pull"
+		StatusIdle: Waiting for feed. The cutterbar is pretending to know odds
+		StatusRolling: Munchulating probability at unsafe speed
+		StatusReveal: Revealing: {0}/{1}
+		StatusReady: Results sealed. Claim the fruit flesh
+
+		QualityShort: {
+			Withered: W
+			Common: C
+			Excellent: E
+			Rare: R
+			Epic: EP
+			Legendary: L
+			Mythic: M
+		}
+	}
+}
+
+Buffs: {
+	BetelNutAddictionBuff: {
+		DisplayName: Betel Nut Addiction
+		DisplayNameWithCount: "{0} ({1})"
+		Description: You feel an aching emptiness... You need to chew on something to ease it.
+	}
+
+	BetelWithdrawal: {
+		Level1: {
+			DisplayName: Munchies
+			Description: Your mouth feels empty, and even your steps feel hollow. Movement speed slightly reduced.
+		}
+
+		Level2: {
+			DisplayName: Craving
+			Description: Your mouth waters uncontrollably, and your swings feel weaker. Movement speed and damage slightly reduced.
+		}
+
+		Level3: {
+			DisplayName: Restless
+			Description: The screen begins to warp. Your hands shake. Damage and movement speed reduced.
+		}
+
+		Level4: {
+			DisplayName: Withdrawal
+			Description: Your head feels heavy and your vision blurs. Life regen stops and stats drop sharply.
+		}
+
+		Level5: {
+			DisplayName: Severe Withdrawal
+			Description: Your heartbeat thunders, your vision warps and greys out, and you bleed continuously. Chew something, NOW!
+		}
+	}
+
+	ChewSatisfaction: {
+		Level1: {
+			DisplayName: Chew Satisfaction! (Level 1)
+			Description: The high kicks in! Wind underfoot lets you glide, and you can see in the dark. Mouth moves, legs float.
+		}
+
+		Level2: {
+			DisplayName: Chew Satisfaction! (Level 2)
+			Description: The high deepens and a "treasure eye" opens; underground ores and chests glow and wave at you.
+		}
+
+		Level3: {
+			DisplayName: Chew Satisfaction! (Level 3)
+			Description: Legs on autopilot! Double-tap a direction to dash, on top of glide and treasure sight.
+		}
+
+		Level4: {
+			DisplayName: Chew Satisfaction! (Level 4)
+			Description: High enough to double jump, kicking off mid-air; danger sense reveals every trap.
+		}
+
+		Level5: {
+			DisplayName: Chew Satisfaction! (Level 5)
+			Description: Golden-mouth blessing: the screen points toward nearby treasure, and drops magnetize from across the screen.
+		}
+
+		Level6: {
+			DisplayName: Chew Satisfaction! (Level 6)
+			Description: Ascension — hold jump to fly; treasure, danger and creature sight all maxed out.
+		}
+	}
+}
+
+Items: {
+	BigFruit: {
+		DisplayName: Big Fruit
+		Tooltip: A big fruit fallen from the tree, rock hard to the touch.
+	}
+
+	BigFruitCutterbar: {
+		DisplayName: Big Fruit Cutterbar
+		Tooltip:
+			'''
+			Looking at this thing makes your mouth water.
+			Place it to slice big fruits into peeled big fruits, or pack chewable big fruits into daily packs.
+			'''
+	}
+
+	BigFruitCutterbarMk2: {
+		DisplayName: Big Fruit Cutterbar Mk2
+		Tooltip:
+			'''
+			An upgraded cutterbar that emanates a strong metallic aura.
+			Retains slicing functionality and packs chewable big fruits into premium gift boxes (hardmode).
+			'''
+	}
+
+	BigFruitleaf: {
+		DisplayName: Big Fruitleaf
+		Tooltip: A big fruit leaf fallen from the tree, rough to the touch.
+	}
+
+	HailanBigFruit: {
+		DisplayName: Hainan Original Big Fruit
+		Tooltip:
+			'''
+			A bitter, unripe big fruit with a strange taste that is hard to endure.
+			The easiest big fruit recipe for the early game.
+			'''
+	}
+
+	BetelTreat: {
+		DisplayName: A Round of Big Fruit
+		Tooltip:
+			'''
+			Use it near a town NPC to offer them a big fruit.
+			They get high for a minute: shop discounts, plus they start talking nonsense.
+			'''
+	}
+
+	ChewableBigFruit: {
+		Withered: {
+			DisplayName: Withered Chewable Big Fruit
+			Tooltip:
+				'''
+				This is a withered chewable betel nut.
+				Shriveled enough to feel like it is only humoring your mouth.
+				'''
+		}
+
+		Common: {
+			DisplayName: Common Chewable Big Fruit
+			Tooltip: This is a common chewable betel nut.
+		}
+
+		Excellent: {
+			DisplayName: Excellent Chewable Big Fruit
+			Tooltip: This is an excellent chewable betel nut.
+		}
+
+		Rare: {
+			DisplayName: Rare Chewable Big Fruit
+			Tooltip: Good luck! This is a rare chewable betel nut.
+		}
+
+		Epic: {
+			DisplayName: Epic Chewable Big Fruit
+			Tooltip: Insane luck! This is an epic chewable betel nut.
+		}
+
+		Legendary: {
+			DisplayName: Legendary Chewable Big Fruit
+			Tooltip: You're invincible! This is a legendary chewable betel nut.
+		}
+
+		Mythic: {
+			DisplayName: Mythic Chewable Big Fruit
+			Tooltip: The legendary holy fruit, ascend to heaven with a single bite! This is a mythic chewable betel nut.
+		}
+	}
+
+	DailyPackBigFruit: {
+		Withered: {
+			DisplayName: Daily Pack · Withered Big Fruit
+			Tooltip: A simple daily pack containing presentation, not nutrition.
+		}
+
+		Common: {
+			DisplayName: Daily Pack · Common Big Fruit
+			Tooltip: A red-bag daily pack, easy to carry around.
+		}
+
+		Excellent: {
+			DisplayName: Daily Pack · Excellent Big Fruit
+			Tooltip: A maple-pattern daily pack of decent quality.
+		}
+
+		Rare: {
+			DisplayName: Daily Pack · Rare Big Fruit
+			Tooltip: A yellow-bag daily pack. Good luck!
+		}
+
+		Epic: {
+			DisplayName: Daily Pack · Epic Big Fruit
+			Tooltip: A yellow-bag daily pack. Insane luck!
+		}
+
+		Legendary: {
+			DisplayName: Daily Pack · Legendary Big Fruit
+			Tooltip: A yellow-bag daily pack. You're invincible!
+		}
+
+		Mythic: {
+			DisplayName: Daily Pack · Mythic Big Fruit
+			Tooltip: A white-bag daily pack — the legendary holy fruit.
+		}
+	}
+
+	GiftBoxPremiumBigFruit: {
+		Withered: {
+			DisplayName: Premium Gift Box · Withered Big Fruit
+			Tooltip: A gift box presentation that makes the whole room go quiet.
+		}
+
+		Common: {
+			DisplayName: Premium Gift Box · Common Big Fruit
+			Tooltip: A red-bag premium gift box, presentable and practical.
+		}
+
+		Excellent: {
+			DisplayName: Premium Gift Box · Excellent Big Fruit
+			Tooltip: A maple-pattern premium gift box, perfect for gifting.
+		}
+
+		Rare: {
+			DisplayName: Premium Gift Box · Rare Big Fruit
+			Tooltip: A premium gift box, good fortune and prosperity!
+		}
+
+		Epic: {
+			DisplayName: Premium Gift Box · Epic Big Fruit
+			Tooltip: A premium gift box, a testament to unbreakable friendship.
+		}
+
+		Legendary: {
+			DisplayName: Premium Gift Box · Legendary Big Fruit
+			Tooltip: A premium gift box, encompassing all things.
+		}
+
+		Mythic: {
+			DisplayName: Premium Gift Box · Mythic Big Fruit
+			Tooltip: A white-rainbow premium gift box — the legendary supreme delicacy.
+		}
+	}
+
+	DecorticateBigFruit: {
+		Withered: {
+			DisplayName: Withered Decorticated Big Fruit
+			Tooltip: This is a withered betel nut, it still needs cooking before you can chew it.
+		}
+
+		Common: {
+			DisplayName: Common Decorticated Big Fruit
+			Tooltip: This is a common betel nut, it still needs cooking before you can chew it.
+		}
+
+		Excellent: {
+			DisplayName: Excellent Decorticated Big Fruit
+			Tooltip: This is an excellent betel nut, it still needs cooking before you can chew it.
+		}
+
+		Rare: {
+			DisplayName: Rare Decorticated Big Fruit
+			Tooltip: Good luck! This is a rare betel nut, it still needs cooking before you can chew it.
+		}
+
+		Epic: {
+			DisplayName: Epic Decorticated Big Fruit
+			Tooltip: Insane luck! This is an epic betel nut, it still needs cooking before you can chew it.
+		}
+
+		Legendary: {
+			DisplayName: Legendary Decorticated Big Fruit
+			Tooltip: You're invincible! This is a legendary betel nut, it still needs cooking before you can chew it.
+		}
+
+		Mythic: {
+			DisplayName: Mythic Decorticated Big Fruit
+			Tooltip: The flesh of the legendary holy fruit! This is a mythic betel nut, it still needs cooking before you can chew it.
+		}
+	}
+}
+
+Tiles: {
+	BigFruitCutterbarTile.MapEntry: Big Fruit Cutterbar
+	BigFruitCutterbarMk2Tile.MapEntry: Big Fruit Cutterbar Mk2
+}
+
+FutureContent: {
+	HechengTianxia: {
+		Note: Hecheng Tianxia series will open in a future update; recipe ratios match daily packs.
+		Withered.DisplayName: Hecheng Tianxia Ordinary Pack
+		Common.DisplayName: Red Bag · Hecheng Tianxia
+		Excellent.DisplayName: Purple Bag · Hecheng Tianxia
+		Rare.DisplayName: Lucky Star · Hecheng Tianxia
+		Epic.DisplayName: Golden Bond · Hecheng Tianxia
+		Legendary.DisplayName: All-Embracing · Hecheng Tianxia
+		Mythic.DisplayName: White Rainbow · Hecheng Tianxia
+	}
+}
