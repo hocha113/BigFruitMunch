@@ -84,7 +84,9 @@ namespace BigFruitMunch.Content.TileProcessors
         public int DepositAllFrom(Player player) {
             int bigFruitType = ModContent.ItemType<BigFruit>();
             int deposited = 0;
-            for (int i = 0; i < player.inventory.Length; i++) {
+            //inventory[58] 与 Main.mouseItem 同步但为独立对象，跳过最后一槽避免重复计数
+            int invLimit = player.whoAmI == Main.myPlayer ? player.inventory.Length - 1 : player.inventory.Length;
+            for (int i = 0; i < invLimit; i++) {
                 Item item = player.inventory[i];
                 if (item == null || item.IsAir || item.type != bigFruitType || item.stack <= 0) {
                     continue;
@@ -92,6 +94,13 @@ namespace BigFruitMunch.Content.TileProcessors
 
                 deposited += item.stack;
                 item.TurnToAir();
+            }
+
+            //鼠标持有的物品不在 inventory 数组内，需要单独处理
+            if (player.whoAmI == Main.myPlayer && Main.mouseItem != null && !Main.mouseItem.IsAir
+                && Main.mouseItem.type == bigFruitType && Main.mouseItem.stack > 0) {
+                deposited += Main.mouseItem.stack;
+                Main.mouseItem.TurnToAir();
             }
 
             if (deposited > 0) {

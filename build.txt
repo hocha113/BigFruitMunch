@@ -1,6 +1,6 @@
 ﻿displayName = 和成天下
 author = 70酱, HoCha113
-version = 1.0
+version = 1.1
 modReferences = InnoVault@1.9.92
 sortAfter = InnoVault
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*
